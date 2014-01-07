@@ -1,0 +1,26 @@
+{
+  "name": "rework-palette",
+  "version": "0.0.1",
+  "description": "Rework plugin to resolve custom color palettes",
+  "keywords": [
+    "rework",
+    "css"
+  ],
+  "author": "Felix Gnass",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fgnass/rework-palette.git"
+  },
+  "dependencies": {
+    "rework-visit": "~1.0.0"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "rework": "~0.20.2",
+    "mocha": "~1.16.2"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "mocha --require should"
+  }
+}
