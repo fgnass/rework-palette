@@ -1,7 +1,7 @@
 ## rework-palette [![Build Status](https://travis-ci.org/fgnass/rework-palette.png)](https://travis-ci.org/fgnass/rework-palette)
 
-[Rework](https://github.com/visionmedia/rework) plugin that resolves CSS color
-names to the [clrs.cc](http://clrs.cc) palette.
+[Rework](https://github.com/visionmedia/rework) plugin to resolve custom CSS
+color names. By default it uses the beautiful [clrs.cc](http://clrs.cc) palette.
 
 ### Example
 
