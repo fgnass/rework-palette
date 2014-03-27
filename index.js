@@ -8,6 +8,7 @@ module.exports = exports = function(palette) {
 
     visit(style, function(declarations) {
       declarations.forEach(function(d) {
+        if (!d.value) return;
         d.value = d.value.replace(re, function(name) {
           return palette[name]
         })
