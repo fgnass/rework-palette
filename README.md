@@ -8,7 +8,7 @@ color names. By default it uses the beautiful [clrs.cc](http://clrs.cc) palette.
 ```css
 .foo {
   color: navy;
-  background: 1px solid blue;
+  border: 1px solid blue;
 }
 ```
 
